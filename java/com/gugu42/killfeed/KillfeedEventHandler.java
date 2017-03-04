@@ -30,7 +30,7 @@ public class KillfeedEventHandler {
 	    	if (event.getType() != ElementType.EXPERIENCE) return;
 	    	
 	    	
-	    	KillfeedItem kfItem = new KillfeedItem();
+	    	/*KillfeedItem kfItem = new KillfeedItem();
 	    	
 	    	kfItem.victimName = "Creeper";
 			kfItem.killerName = "Player999";
@@ -43,7 +43,7 @@ public class KillfeedEventHandler {
 	    	new GUIKillfeed(Minecraft.getMinecraft(), kfItem, 2);
 	    	kfItem.deathType = KillfeedItem.getKillTypeFromDamageSource("explosion.player");
 	    	new GUIKillfeed(Minecraft.getMinecraft(), kfItem, 3);
-	    	new GUIKillfeed(Minecraft.getMinecraft(), kfItem, 4);
+	    	new GUIKillfeed(Minecraft.getMinecraft(), kfItem, 4);*/
 	    	
 	    	int idx = 0;
 	    	for (Iterator<KillfeedItem> iterator = killfeedItems.iterator(); iterator.hasNext(); idx++) {
