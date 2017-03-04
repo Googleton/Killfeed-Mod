@@ -1,0 +1,16 @@
+[
+{
+  "modid": "killfeed",
+  "name": "Kill Feed Mod",
+  "description": "CSGO's killfeeds in Minecraft.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Gugu42"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
